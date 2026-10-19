@@ -1,0 +1,51 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local data and uploads
+data/
+uploads/
+storage/
+*.sqlite
+*.db
+
+# Temporary files
+.tmp/
+.temp/
+tmp/
+temp/
