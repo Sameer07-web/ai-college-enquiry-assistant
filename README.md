@@ -2,7 +2,7 @@
 
 A multi-tenant, Retrieval-Augmented Generation (RAG) application that answers college enquiries using approved institutional documents and provides source citations.
 
-> **Status:** Initial scaffold. Features described here are planned unless explicitly marked implemented.
+> **Status:** Phase 1 — Backend Foundation implemented and verified. Later phase features (MySQL, Spring Security, RAG, Frontend) are planned as documented.
 
 ## Goals
 - Answer natural-language questions using approved college documents.

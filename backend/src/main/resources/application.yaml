@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+spring:
+  application:
+    name: college-enquiry-assistant
+
+app:
+  name: "AI College Enquiry Assistant"
+  version: "1.0.0"
+  description: "AI College Enquiry Assistant - Phase 1 Foundation"
+  api-prefix: "/api/v1"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when_authorized
+
+logging:
+  level:
+    root: INFO
+    com.college.enquiry: INFO
